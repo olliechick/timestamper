@@ -15,9 +15,15 @@ Argument          | Default     | Description
 `<x-offset>`      |`65`         | How offset the timestamp should be from the left side of the screen.
 `<y-offset>`      |`65`         | How offset the timestamp should be from the top of the screen.
 
+### Pre-requisites
+
+Install `ffmpeg`.
+
 
 ### Example
 
+You can generate a video using files in the `sample` folder using the following commands:
+
 ```
-./timestamps.sh 2012-12-01 06:35 recording.mp3 background.jpg 200 200
+./timestamps.sh 2012-12-01 06:35 sample/recording.mp3 sample/background.jpg 200 100
 ```
