@@ -12,7 +12,7 @@ To retain default behaviour, use the defaults listed in the table below.
 
 Argument           | Default     | Description 
 -------------------|-------------|-------------
-`<seed-time>`      | N/A         | The starting timestamp. It should be in the format `yyyy-mm-dd hh:mm` (e.g. `2012-12-01 06:35`).
+`<seed-time>`      | N/A         | The starting timestamp. It should be in the format `yyyy-mm-dd hh:mm`.
 `<audio>`          | `audio.mp3` | The filename of the audio file.
 `<image>`          |`image.jpg`  | The filename of the image file.
 `<output>`         |`output`     | The filename of the output video file (without the `.mp4` extension).
