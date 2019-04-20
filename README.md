@@ -19,7 +19,7 @@ Argument           | Default     | Description
 `<x-offset>`       |`65`         | How offset the timestamp should be from the left side of the screen.
 `<y-offset>`       |`65`         | How offset the timestamp should be from the top of the screen.
 `<colour>`         |`white`      | The colour of the timestamp text.
-`<seconds>`         `00`         | The seconds of the seed time.
+`<seconds>`        |`00`         | The seconds of the seed time.
 
 ### Pre-requisites
 
