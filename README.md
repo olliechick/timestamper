@@ -7,6 +7,9 @@ Create a timestamped video from a still image, and an audio file.
 ./timestamps.sh <seed-time> <audio> <image> <output> <x-offset> <y-offset> <colour> <seconds>
 ```
 
+Only `seed-time` is compulsory, but if you want to specify a certain argument, you will also have to specify each argument before it.
+To retain default behaviour, use the defaults listed in the table below.
+
 Argument           | Default     | Description 
 -------------------|-------------|-------------
 `<seed-time>`      | N/A         | The starting timestamp. It should be in the format `yyyy-mm-dd hh:mm` (e.g. `2012-12-01 06:35`).
