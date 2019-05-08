@@ -21,6 +21,10 @@ Argument           | Default     | Description
 `<colour>`         |`white`      | The colour of the timestamp text.
 `<seconds>`        |`00`         | The seconds of the seed time.
 
+### Understanding the output
+
+The key things to look for are what appears after `time=` (this is how far it is through the audio file), and what appears after `speed=` (this is how fast it is going through the audio file (e.g. 2x means it will take 1 hour to create a video from a 2-hour video)).
+
 ### Pre-requisites
 
 Install `ffmpeg`.
