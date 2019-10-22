@@ -1,5 +1,5 @@
 # timestamper
-Create a timestamped video from a still image, and an audio file.
+Create a timestamped video from a still image, an audio file, and a start time.
 
 ## How to run it
 
