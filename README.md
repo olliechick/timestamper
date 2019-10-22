@@ -32,7 +32,7 @@ Install `ffmpeg`.
 
 ### Example
 
-You can generate a video using files in the `sample` folder using the following command:
+You can generate a video using files in the `sample` folder using the command below. The video this will generate can be seen at https://youtu.be/c1mW156rfa4.
 
 ```bash
 ./timestamps.sh 2012-12-01 06:35 sample/recording.mp3 sample/background.jpg generated_video 200 100 black 30
