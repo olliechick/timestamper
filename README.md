@@ -20,7 +20,7 @@ Argument           | Default     | Description
 `<y-offset>`       | `65`        | How offset the timestamp should be from the top of the screen.
 `<colour>`         | `white`     | The colour of the timestamp text.
 `<seconds>`        | `00`        | The seconds of the seed time.
-`<border>`         | ``          | Whether to add a border to the text - set to `border` to add a border.
+`<border>`         | ` `         | Whether to add a border to the text - set to `border` to add a border.
 
 ### Understanding the output
 
