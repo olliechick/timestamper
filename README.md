@@ -4,7 +4,7 @@ Create a timestamped video from a still image, an audio file, and a start time.
 ## How to run it
 
 ```bash
-./timestamps.sh <seed-time> <audio> <image> <output> <x-offset> <y-offset> <colour> <seconds>
+./timestamps.sh <seed-time> <audio> <image> <output> <x-offset> <y-offset> <colour> <seconds> <border>
 ```
 
 Only `seed-time` is compulsory, but if you want to specify a certain argument, you will also have to specify each argument before it.
@@ -14,12 +14,13 @@ Argument           | Default     | Description
 -------------------|-------------|-------------
 `<seed-time>`      | N/A         | The starting timestamp. It should be in the format `yyyy-mm-dd hh:mm`.
 `<audio>`          | `audio.mp3` | The filename of the audio file.
-`<image>`          |`image.jpg`  | The filename of the image file.
-`<output>`         |`output`     | The filename of the output video file (without the `.mp4` extension).
-`<x-offset>`       |`65`         | How offset the timestamp should be from the left side of the screen.
-`<y-offset>`       |`65`         | How offset the timestamp should be from the top of the screen.
-`<colour>`         |`white`      | The colour of the timestamp text.
-`<seconds>`        |`00`         | The seconds of the seed time.
+`<image>`          | `image.jpg` | The filename of the image file.
+`<output>`         | `output`    | The filename of the output video file (without the `.mp4` extension).
+`<x-offset>`       | `65`        | How offset the timestamp should be from the left side of the screen.
+`<y-offset>`       | `65`        | How offset the timestamp should be from the top of the screen.
+`<colour>`         | `white`     | The colour of the timestamp text.
+`<seconds>`        | `00`        | The seconds of the seed time.
+`<border>`         | ``          | Whether to add a border to the text - set to `border` to add a border.
 
 ### Understanding the output
 
