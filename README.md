@@ -4,7 +4,7 @@ Create a timestamped video from a still image, an audio file, and a start time.
 ## How to run it
 
 ```bash
-./timestamps.sh <seed-time> <audio> <image> <output> <x-offset> <y-offset> <colour> <seconds> <border>
+./timestamps.sh <seed-time> <audio> <image> <output> <x-offset> <y-offset> <colour> <seconds> <border-colour>
 ```
 
 Only `seed-time` is compulsory, but if you want to specify a certain argument, you will also have to specify each argument before it.
@@ -20,7 +20,7 @@ Argument           | Default     | Description
 `<y-offset>`       | `65`        | How offset the timestamp should be from the top of the screen.
 `<colour>`         | `white`     | The colour of the timestamp text.
 `<seconds>`        | `00`        | The seconds of the seed time.
-`<border>`         | ` `         | Whether to add a border to the text - set to `border` to add a border.
+`<border-colour>`  | ` `         | The colour of the text border - omit if not desired.
 
 ### Understanding the output
 
@@ -29,7 +29,6 @@ The key things to look for are what appears after `time=` (this is how far it is
 ### Pre-requisites
 
 Install `ffmpeg`.
-
 
 ### Example
 
